@@ -4,7 +4,7 @@ import { useState } from "react";
 import axios from "axios";
 import { backengUrl, currency } from "../App.jsx";
 import { toast } from "react-toastify";
-import { assets } from "../assets/assets";
+import { assets } from "../assets/assets.js";
 
 const Orders = ({ token }) => {
   const [orders, setOrders] = useState([]);
