@@ -10,15 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.9",
     "react": "^19.0.0",
-<<<<<<< HEAD
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
-    "react-toastify": "^11.0.3",
-    "toastify": "^2.0.1"
-=======
-    "react-dom": "^19.0.0"
->>>>>>> 9c16d0062976d25bb820fed15503f84265e7da51
+    "react-toastify": "^11.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
