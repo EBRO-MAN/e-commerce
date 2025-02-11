@@ -25,12 +25,12 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <Link to={"/"}>
-        <img src={assets.logo} className="w-36" alt="" />
+        <img src={assets.logo} className="w-40" alt="" />
       </Link>
       <ul className="hidden sm:flex gap-5 text-gray-700">
         <NavLink
           className="flex flex-col items-center gap-1"
-          activeClassName="bg-gray-300"
+          // activeClassName="bg-gray-300"
           to={"/"}
         >
           <p>HOME</p>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <NavLink
           to={"/collection"}
           className="flex flex-col items-center gap-1 px-5"
-          activeClassName="bg-gray-300"
+          // activeClassName="bg-gray-300"
         >
           <p>COLLECTION</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
@@ -47,7 +47,7 @@ const Navbar = () => {
         <NavLink
           to={"/about"}
           className="flex flex-col items-center gap-1"
-          activeClassName="bg-gray-300"
+          // activeClassName="bg-gray-300"
         >
           <p>ABOUT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
@@ -55,7 +55,7 @@ const Navbar = () => {
         <NavLink
           to={"/contact"}
           className="flex flex-col items-center gap-1 px-5"
-          activeClassName="bg-gray-300"
+          // activeClassName="bg-gray-300"
         >
           <p>CONTACT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
